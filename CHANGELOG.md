@@ -16,6 +16,18 @@ follows:
    minor and patch releases. They're also made to fix bugs and add features to
    the build infrastructure.
 
+## v1.34.1
+
+This is a security fix release.
+
+* Changes
+  * Erlang updated from 29.0.2 to 29.0.4
+  * Buildroot updated from 2026.05 to 2026.05.1
+
+* Package updates
+  * [Erlang/OTP 29.0.4](https://erlang.org/download/OTP-29.0.4.README.md)
+  * [Buildroot 2026.05.1](https://lore.kernel.org/buildroot/buildroot-2026.05.1-announce-1784143976@buildroot.org/T/)
+
 ## v1.34.0
 
 This is a significant update to many components. Please take care in updating as
