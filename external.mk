@@ -11,8 +11,7 @@ export NERVES_DEFCONFIG_DIR
 # Pull in any configuration-specific packages
 -include $(NERVES_DEFCONFIG_DIR)/external.mk
 
-# Create a system image for use by Bakeware and for creating
-# firmware images without Buildroot
+# Create a Nerves system tarball for use with the Elixir-based Nerves tooling
 NERVES_ARTIFACT_NAME ?= $(BR2_NERVES_SYSTEM_NAME)
 system:
 	$(BR2_EXTERNAL_NERVES_PATH)/scripts/mksystem.sh $(NERVES_ARTIFACT_NAME)
