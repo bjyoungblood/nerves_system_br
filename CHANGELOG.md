@@ -16,6 +16,16 @@ follows:
    minor and patch releases. They're also made to fix bugs and add features to
    the build infrastructure.
 
+## v1.34.2
+
+This is a security fix release.
+
+* Changes
+  * Erlang updated from 29.0.4 to 29.0.5
+
+* Package updates
+  * [Erlang/OTP 29.0.5](https://erlang.org/download/OTP-29.0.5.README.md)
+
 ## v1.34.1
 
 This is a security fix release.
